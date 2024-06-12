@@ -7,7 +7,7 @@ namespace CarLotSimulator
         static void Main(string[] args)
         {
 
-            Car car1 = new Car();
+            global::Car car1 = new global::Car();
            
             car1.Year = 2023;
             car1.Make = "Audi";
@@ -16,7 +16,7 @@ namespace CarLotSimulator
             car1.HonkNoise = "Beep Beep";
             car1.IsDriveable = true;
 
-            Car car2 = new Car();
+            global::Car car2 = new global::Car();
             car2.Year = 2020;
             car2.Make = "GMC";
             car2.Model = "Denali";
@@ -24,7 +24,7 @@ namespace CarLotSimulator
             car2.HonkNoise = "Honk";
             car2.IsDriveable = true;
 
-            Car car3 = new Car();
+            global::Car car3 = new global::Car();
             car3.Year = 2023;
             car3.Make = "Volkswagon";
             car3.Model = "Jetta";

@@ -7,9 +7,7 @@ using System.Xml.Schema;
 
 namespace CarLotSimulator
 {
-    internal class Class1
-    {
-    }
+    
 }
 public class Car
 {
