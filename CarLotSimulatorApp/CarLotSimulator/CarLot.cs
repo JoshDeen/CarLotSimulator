@@ -27,7 +27,7 @@ namespace CarLotSimulator
         {
             foreach (Car car in Cars)
             {
-                Console.WriteLine($"Year: {car.Year}, Make: {car.Make}, Model: {car.Model}");
+                Console.WriteLine($"Year: {car.Year}, Make: {car.Make}, Model: {car.Model} with a{car.EngineNoise} engine sound and a {car.HonkNoise} horn sound.");
             }
         }
     }

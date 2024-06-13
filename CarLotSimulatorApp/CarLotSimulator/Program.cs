@@ -12,19 +12,19 @@ namespace CarLotSimulator
             // Create 3 new cars
             Car car1 = new Car
             {
-                Year = 2020,
-                Make = "Toyota",
-                Model = "Camry",
-                EngineNoise = "Broom!",
+                Year = 2023,
+                Make = "Audi",
+                Model = "R8",
+                EngineNoise = "Vroom Vroom!",
                 HonkNoise = "Honk honk!",
                 IsDriveable = true
             };
 
             Car car2 = new Car
             {
-                Year = 2018,
-                Make = "Honda",
-                Model = "Civic",
+                Year = 2024,
+                Make = "Acura",
+                Model = "TLX Type S SH-AWD",
                 EngineNoise = "Vroom!",
                 HonkNoise = "Beep beep!",
                 IsDriveable = true
@@ -32,9 +32,9 @@ namespace CarLotSimulator
 
             Car car3 = new Car
             {
-                Year = 2023,
+                Year = 2022,
                 Make = "Ford",
-                Model = "Mustang",
+                Model = "Mustang Shelby GT500",
                 EngineNoise = "Roar!",
                 HonkNoise = "Aooga!",
                 IsDriveable = true
@@ -47,16 +47,16 @@ namespace CarLotSimulator
 
             Console.WriteLine();
             // Make engine and honk noises for each car
-            Console.WriteLine("The engines sound like:");
-            car1.MakeEngineNoise(car1.EngineNoise);
-            car2.MakeEngineNoise(car2.EngineNoise);
-            car3.MakeEngineNoise(car3.EngineNoise);
-            Console.WriteLine();
+            //Console.WriteLine("The engines sound like:");
+            //car1.MakeEngineNoise(car1.EngineNoise);
+            //car2.MakeEngineNoise(car2.EngineNoise);
+            //car3.MakeEngineNoise(car3.EngineNoise);
+            //Console.WriteLine();
 
-            Console.WriteLine("The car horns sound like:");
-            car1.MakeHonkNoise(car1.HonkNoise);
-            car2.MakeHonkNoise(car2.HonkNoise);
-            car3.MakeHonkNoise(car3.HonkNoise);
+            //Console.WriteLine("The car horns sound like:");
+            //car1.MakeHonkNoise(car1.HonkNoise);
+            //car2.MakeHonkNoise(car2.HonkNoise);
+            //car3.MakeHonkNoise(car3.HonkNoise);
 
             // Print car details from the CarLot
             Console.WriteLine("\nCar Details:");
