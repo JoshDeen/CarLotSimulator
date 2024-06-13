@@ -20,12 +20,12 @@ public class Car
 
     public void MakeEngineNoise(string noise)
     {
-        Console.WriteLine($"The {Year} {Make} {Model} makes the following engine noise: {noise} and it is {IsDriveable} that it is driveable");
+        Console.WriteLine(noise);
     }
 
     public void MakeHonkNoise(string noise)
     {
-        Console.WriteLine($"The {Year} {Make} {Model} makes the following honk noise: {noise}");
+        Console.WriteLine(noise);
     }
 }
 
